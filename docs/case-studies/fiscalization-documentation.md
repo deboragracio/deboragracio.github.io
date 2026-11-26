@@ -30,7 +30,3 @@ Docs-as-Code · Docusaurus · Markdown · GitHub · CI/CD · Developer documenta
 ## Confidentiality
 
 This case study is an experience summary. It does not disclose internal product architecture, customer information, unpublished roadmap details, source code, or employer-owned documentation.
-
----
-
-*Portfolio note: The exact scope of API authoring versus review/maintenance should be confirmed before this case study is published as a final claim.*
