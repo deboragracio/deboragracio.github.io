@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --ifm-color-primary: #315b47;
+  --ifm-color-primary-dark: #2c523f;
+  --ifm-color-primary-darker: #294d3c;
+  --ifm-color-primary-darkest: #214031;
+  --ifm-color-primary-light: #37654f;
+  --ifm-color-primary-lighter: #3a6a53;
+  --ifm-color-primary-lightest: #477e63;
+  --ifm-font-family-base: 'DM Sans', sans-serif;
+  --ifm-heading-font-family: 'Manrope', sans-serif;
+  --ifm-heading-font-weight: 700;
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-footer-background-color: #f5f6f4;
+  --ifm-code-font-size: 90%;
+}
+html { scroll-behavior: smooth; }
+.navbar { box-shadow: none; border-bottom: 1px solid #e8ece8; }
+.navbar__title { font-family: 'Manrope', sans-serif; font-weight: 800; }
+.footer { color: #526158; }
+.footer__title { color: #1e3026; }
+.pageContent { max-width: 900px; padding-top: 4.5rem; padding-bottom: 5rem; }
+.pageContent h1 {
+  max-width: 850px;
+  margin-bottom: 1.5rem;
+  color: #17241f;
+  font-size: clamp(2.4rem, 5vw, 4rem);
+  line-height: 1.08;
+  letter-spacing: -0.045em;
+}
+.pageContent h2 { margin-top: 2.8rem; color: #1e3026; }
+.pageContent p, .pageContent li { color: #536159; line-height: 1.8; }
+.pageContent .lead { max-width: 780px; color: #293a32; font-size: 1.25rem; line-height: 1.7; }
+.eyebrow { color: #52665c; font-size: .72rem; font-weight: 700; letter-spacing: .14em; }
+.note, .sampleNote { padding: 1rem 1.2rem; background: #f5f6f4; border-left: 3px solid #78917f; }
+.sampleList { margin-top: 3rem; border-top: 1px solid #e0e6e1; }
+.sampleItem { display: grid; grid-template-columns: 60px 1fr; gap: 1rem; padding: 1.8rem 0; border-bottom: 1px solid #e0e6e1; }
+.sampleIndex { color: #7b8b80; font-weight: 700; }
+.sampleItem h2 { margin: 0 0 .6rem; font-size: 1.35rem; }
+.sampleItem p { margin-bottom: .6rem; }
+.sampleStatus { color: #6a7c70 !important; font-size: .72rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.backLink { margin-top: 3rem; }
