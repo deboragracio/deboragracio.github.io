@@ -72,7 +72,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="container section">
+        <section className={`container ${styles.sectionBlock}`}>
           <div className={styles.sectionHeading}>
             <p className={styles.eyebrow}>WHAT I BRING</p>
             <h2>Clear content. Thoughtful structure. Useful documentation.</h2>
@@ -87,7 +87,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className={`${styles.workSection} section`}>
+        <section className={`${styles.workSection} ${styles.sectionBlock}`}>
           <div className="container">
             <div className={styles.sectionHeading}>
               <p className={styles.eyebrow}>SELECTED EXPERIENCE</p>
@@ -112,7 +112,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="container section">
+        <section className={`container ${styles.sectionBlock}`}>
           <div className={styles.sampleCallout}>
             <div>
               <p className={styles.eyebrow}>INDEPENDENT WORK</p>
