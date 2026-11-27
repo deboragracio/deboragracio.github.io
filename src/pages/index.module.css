@@ -1,11 +1,11 @@
 .hero {
-  padding: 6.5rem 0 5.5rem;
+  padding: 6.5rem 0 2.5rem;
   background: #f5f6f4;
 }
 .hero h1 {
   max-width: 850px;
   margin: 0 0 1.5rem;
-  font-size: clamp(2.8rem, 7vw, 5.5rem);
+  font-size: clamp(2.6rem, 6vw, 4.8rem);
   line-height: 1.02;
   letter-spacing: -0.055em;
   color: #17241f;
@@ -20,7 +20,7 @@
 .intro {
   max-width: 760px;
   color: #293a32;
-  font-size: clamp(1.2rem, 2.4vw, 1.55rem);
+  font-size: clamp(1.1rem, 2.1vw, 1.35rem);
   line-height: 1.55;
 }
 .supporting {
@@ -40,7 +40,7 @@
   color: #69766f;
   font-size: 0.88rem;
 }
-.sectionBlock { padding-top: 3rem; padding-bottom: 3rem; }
+.sectionBlock { padding-top: 2.5rem; padding-bottom: 2.5rem; }
 .sectionHeading { max-width: 720px; margin-bottom: 2.5rem; }
 .sectionHeading h2, .sampleCallout h2 {
   color: #17241f;
